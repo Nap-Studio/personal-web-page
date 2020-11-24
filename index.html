@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
     <title>Personal Web Page</title>
 </head>
+
 <body>
-    
+    <div id="background"></div>
+    <div id="noise"></div>
+
+    <div id="toolbar" class="toolbar">
+        <a onclick="changeContent('title-container')">Home</a>
+        <a onclick="changeContent('work-container')">My Work</a>
+        <a onclick="changeContent('about-container')">About Me</a>
+    </div>
+
+    <div id="main-container" class="main-container">
+        <div class="title-container active">
+            <p class="main-title fade-in">Mauro</p>
+            <p class="main-title fade-in">Napsuciale</p>
+            <p class="main-subtitle fade-in-slow">Creative Software Development</p>
+        </div>
+        <div class="work-container hidden">
+            <p class="main-title fade-in">Work</p>
+        </div>
+        <div class="about-container hidden">
+            <p class="main-title fade-in">About</p>
+        </div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <script src="/particles.js"></script>
+    <script src="/app.js"></script>
 </body>
+
 </html>
