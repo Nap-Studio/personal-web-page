@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
-    <title>Personal Web Page</title>
+    <title>Mauro Napsuciale | Software Developer</title>
 </head>
 
 <body>
@@ -24,10 +24,23 @@
             <p class="main-title fade-in">Napsuciale</p>
             <p class="main-subtitle fade-in-slow">Creative Software Development</p>
         </div>
-        <div class="work-container hidden">
-            <p class="main-title fade-in">Work</p>
+        <div id="work-container" class="work-container hidden">
+            <div class="showcase-container">
+                <div class="showcase-card fade-in-slow" onmouseover="changeDetails(0)" onmouseout="revertDetails()">
+                    <div class="showcase-card-cover"></div>
+                </div>
+                <div class="showcase-card fade-in-slow" onmouseover="changeDetails(1)" onmouseout="revertDetails()">
+                    <div class="showcase-card-cover"></div>
+                </div>
+                <div class="showcase-card fade-in-slow" onmouseover="changeDetails(2)" onmouseout="revertDetails()">
+                    <div class="showcase-card-cover"></div>
+                </div>
+            </div>
+            <div class="info-container">
+                <p class="main-subtitle fade-in">My work</p>
+            </div>
         </div>
-        <div class="about-container hidden">
+        <div id="about-container" class="about-container hidden">
             <p class="main-title fade-in">About</p>
         </div>
     </div>
