@@ -123,8 +123,34 @@ body {
     width: 15vw;
     height: 40vh;
     transition: width var(--expand-duration) ease-out, height var(--expand-duration) ease-out;
-    background: url('/assets/RoadToAztlan.png') no-repeat center center/cover;
     opacity: 0;
+}
+
+.work-1 {
+    background: url('/assets/IWTBAB.png') no-repeat center center/cover;
+    transition: background 0.5s ease;
+}
+
+.work-2 {
+    background: url('/assets/Amazonia.png') no-repeat center center/cover;
+    transition: background 0.5s ease;
+}
+
+.work-3 {
+    background: url('/assets/RoadToAztlan.png') no-repeat center center/cover;
+    transition: background 0.5s ease;
+}
+
+.work-1:hover {
+    background: url('/assets/IWTBAB.gif') no-repeat center center/cover;
+}
+
+.work-2:hover {
+    background: url('/assets/Amazonia.gif') no-repeat center center/cover;
+}
+
+.work-3:hover {
+    background: url('/assets/RTA2.gif') no-repeat center center/cover;
 }
 
 .showcase-card-cover {
