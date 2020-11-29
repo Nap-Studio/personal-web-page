@@ -43,7 +43,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('/assets/noisy-texture-transparent.png') repeat;
+    background: url('assets/noisy-texture-transparent.png') repeat;
     opacity: 0.1;
     animation: noise 0.5s infinite linear;
     z-index: 1;
@@ -127,30 +127,30 @@ body {
 }
 
 .work-1 {
-    background: url('/assets/IWTBAB.png') no-repeat center center/cover;
+    background: url('assets/IWTBAB.png') no-repeat center center/cover;
     transition: background 0.5s ease;
 }
 
 .work-2 {
-    background: url('/assets/Amazonia.png') no-repeat center center/cover;
+    background: url('assets/Amazonia.png') no-repeat center center/cover;
     transition: background 0.5s ease;
 }
 
 .work-3 {
-    background: url('/assets/RoadToAztlan.png') no-repeat center center/cover;
+    background: url('assets/RoadToAztlan.png') no-repeat center center/cover;
     transition: background 0.5s ease;
 }
 
 .work-1:hover {
-    background: url('/assets/IWTBAB.gif') no-repeat center center/cover;
+    background: url('assets/IWTBAB.gif') no-repeat center center/cover;
 }
 
 .work-2:hover {
-    background: url('/assets/Amazonia.gif') no-repeat center center/cover;
+    background: url('assets/Amazonia.gif') no-repeat center center/cover;
 }
 
 .work-3:hover {
-    background: url('/assets/RTA2.gif') no-repeat center center/cover;
+    background: url('assets/RTA2.gif') no-repeat center center/cover;
 }
 
 .showcase-card-cover {
@@ -204,7 +204,7 @@ body {
     border-radius: 50%;
     min-width: 15rem;
     min-height: 15rem;
-    background: url('/assets/Self.jpg') no-repeat center center/cover;
+    background: url('assets/Self.jpg') no-repeat center center/cover;
     opacity: 0;
 }
 
