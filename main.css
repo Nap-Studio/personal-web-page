@@ -271,7 +271,7 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 /* Animations */
@@ -324,6 +324,10 @@ body {
         margin: 2rem 0;
         min-width: 10rem;
         min-height: 10rem;
+    }
+
+    .description {
+        font-size: 1.5vh;
     }
 }
 
